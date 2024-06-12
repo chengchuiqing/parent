@@ -1,0 +1,5 @@
+logging:
+  level:
+    com.qing: debug  # 注意要设置SpringBoot的日志级别，否者Fegin的日志不会打印，是qing-feign-api的包
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
